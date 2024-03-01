@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Fraunces:opsz,wght,SOFT@9..144,900,9&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                whtcolor: '#FEFCF7',
+                dark: '#333D4B',
+                licolor: '#83888F',
+                black:'#2C343E',
+                green: '#0E8784',
+              },
+              fontFamily:{
+                fr: ['"Fraunces", serif'],
+                barlow:['"Barlow", sans-serif']
+              },
+              backgroundImage: {
+                'hero':[
+                    "url('/images/home/banner.jpg')"
+                ]
+              }
+            }
+          }
+        }
+      </script>
+    <title>Coffeeroasters</title>
+</head>
+<body>
+    <header class="px-6 md:px-10 lg:px-20">
+        <div>
+            <nav class="flex justify-between items-center py-[43px]">
+                <img src="images/home/logo.svg" alt="Coffeeroasters">
+                <ul class="hidden md:flex justify-between items-center space-x-[33px]">
+                    <li><a href="#" class="text-licolor font-bold font-barlow text-xs leading-[15px] 0.92px">HOME</a></li>
+                    <li><a href="#" class="text-licolor font-bold font-barlow text-xs leading-[15px] 0.92px">ABOUT US</a></li>
+                    <li><a href="#" class="text-licolor font-bold font-barlow text-xs leading-[15px] 0.92px">Create your plan</a></li>
+                </ul>
+            </nav>
+            <main class="bg-hero bg-cover bg-no-repeat bg-center rounded-md text-whtcolor py-[104px] lg:py-[117px] pl-6 md:pl-[57px] lg:pl-[85px]">
+                <div class="text-center w-full md:text-start md:w-[393px] lg:w-[493px]">
+                    <h1 class="font-fr text-[40px] leading-[40px] md:text-[49px] md:leading-18 lg:text-[71px] lg:leading-[71px] font-black">Great coffee made simple.</h1>
+                    <p class="mt-8 mb-14 font-barlow font-nomal text-base">Start your mornings with the world’s best coffees. Try our expertly curated artisan coffees from our best roasters delivered directly to your door, at your schedule.</p>
+                    <button class="w-[217px] h-[56px] bg-green rounded-md text-[18px] leading-[25px] font-fr">Create your plan</button>
+                </div>
+           </main>
+        </div>
+    </header>
+    
+    <section class="px-10 my-[135px] lg:px-[165px]">
+        <h2 class="font-fr text-[40px] leading-18 text-center md:text-[96px] lg:text-[150px] text-transparent bg-clip-text bg-gradient-to-b from-licolor to-[#FEFCF7]">our collection</h2>
+        <div class="md:-mt-[80px] lg:-mt-[95px]">
+            <div class="lg:flex lg:gap-[30px]">
+                <div class="text-center md:flex md:text-start lg:block">
+                    <img src="images/home/kopi1.png" alt="" class="m-auto md:w-[50%] lg:w-full lg:mb-[71px]">
+                    <div class="mt-8">
+                        <h3 class="font-fr text-6 lg:text-center leading-8 mb-6">Gran Espresso</h3>
+                        <p class="font-barlow text-4 lg:text-center leading-[26px] text-dark">Light and flavorful blend with cocoa and black pepper for an intense experience.</p>
+                    </div>
+                </div>
+                <div class="text-center md:flex md:text-start lg:block">
+                    <img src="images/home/kopi1.png" alt="" class="m-auto md:w-[50%] lg:w-full lg:mb-[71px]">
+                    <div class="mt-8">
+                        <h3 class="font-fr text-6 lg:text-center leading-8 mb-6">Gran Espresso</h3>
+                        <p class="font-barlow text-4 lg:text-center leading-[26px] text-dark">Light and flavorful blend with cocoa and black pepper for an intense experience.</p>
+                    </div>
+                </div>
+                <div class="text-center md:flex md:text-start lg:block">
+                    <img src="images/home/kopi1.png" alt="" class="m-auto md:w-[50%] lg:w-full lg:mb-[71px]">
+                    <div class="mt-8">
+                        <h3 class="font-fr text-6 lg:text-center leading-8 mb-6">Gran Espresso</h3>
+                        <p class="font-barlow text-4 lg:text-center leading-[26px] text-dark">Light and flavorful blend with cocoa and black pepper for an intense experience.</p>
+                    </div>
+                </div>
+                <div class="text-center md:flex md:text-start lg:block">
+                    <img src="images/home/kopi1.png" alt="" class="m-auto md:w-[50%] lg:w-full lg:mb-[71px]">
+                    <div class="mt-8">
+                        <h3 class="font-fr text-6 lg:text-center leading-8 mb-6">Gran Espresso</h3>
+                        <p class="font-barlow text-4 lg:text-center leading-[26px] text-dark">Light and flavorful blend with cocoa and black pepper for an intense experience.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+</body>
+</html>
